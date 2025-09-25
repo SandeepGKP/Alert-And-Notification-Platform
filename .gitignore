@@ -1,0 +1,84 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Executables
+bin/
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE and editor files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.ilk
+*.exe.manifest
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Test files
+tests/*/
+*.test
+
+# Libraries
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Memory dumps
+*.dmp
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Dependency directories (if any)
+deps/
+vendor/
+
+# Node modules (in case)
+node_modules/
