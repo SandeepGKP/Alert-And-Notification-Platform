@@ -448,4 +448,4 @@ cmake --build .
 
 
 
-**Built with C++17 • CMake • Cross-platform compatible ** 
+**Built with C++17 • CMake • Cross-platform compatible** 
