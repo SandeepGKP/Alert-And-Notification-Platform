@@ -378,8 +378,8 @@ All Product Requirements Document features are implemented and demoable:
 │   ├── Team.cpp
 │   ├── User.cpp
 │   ├── UserAlertPreference.cpp
-│   ├── main-new.cpp
-│   └── main.cpp
+│   ├── main-new.cpp       # can be removed 
+│   └── main.cpp           # since CMake builds the application from main.cpp
 └── .vscode/               # IDE configuration
     └── c_cpp_properties.json
 ```
