@@ -1,14 +1,14 @@
-# Alerting & Notification Platform 🔕🔔
+# Alerting & Notification Platform 
 
 A complete production-ready alerting and notification system built with modern C++17 standards, implementing all PRD requirements with clean architecture and comprehensive features.
 
-## 📋 Overview
+##  Overview
 
 This platform provides organizations with a robust alerting system that balances administrative configurability with user control. Features include unlimited alert creation with visibility targeting, multi-level filtering, snooze functionality with automatic daily resets, and comprehensive analytics.
 
-## 🎯 Key Features
+##  Key Features
 
-### Admin Operations ✅
+### Admin Operations 
 - **Create unlimited alerts** with configurable visibility (Organization/Team/User)
 - **Update alerts** with new titles, severities, and properties
 - **Archive alerts** to remove from active circulation
@@ -19,21 +19,21 @@ This platform provides organizations with a robust alerting system that balances
 - **Filter by audience** (Organization-wide or team-specific alerts)
 - **View alert read status** by user (Unread/Read/Snoozed per alert)
 
-### User Operations ✅
+### User Operations 
 - **View personalized alerts** based on user/team visibility
 - **Mark alerts as read/unread** with status persistence
 - **Snooze alerts for current day** with automatic morning reset
 - **Track snoozed alert history** and notifications
 - **Receive alerts every 2 hours** until snoozed or expired
 
-### Analytics Dashboard ✅
+### Analytics Dashboard 
 - **Total alerts created** system metric
 - **Alert delivery rates** tracking
 - **Read vs snooze rates** in percentages
 - **Severity breakdowns** (Info/Warning/Critical counts)
 - **Alert status tracking** (Active/Snoozed/Read)
 
-## 🏗️ Architecture
+##  Architecture
 
 - **C++17 Standard** with RAII and smart pointers
 - **Modular Design** following SRP and DRY principles
@@ -42,7 +42,7 @@ This platform provides organizations with a robust alerting system that balances
 - **Observer Pattern** foundation for real-time subscriptions
 - **JSON Framework** ready for data persistence and APIs
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 ### Required Tools:
 - **C++ Compiler**: GCC 11+ or MinGW-w64 (recommended)
@@ -61,7 +61,7 @@ This platform provides organizations with a robust alerting system that balances
 - **nlohmann/json** (automatically downloaded by CMake)
 - **CMake Toolchain** for cross-platform builds
 
-## 🚀 Quick Start Setup
+##  Quick Start Setup
 
 ### **Prerequisites Check**
 Before starting, ensure you have:
@@ -145,7 +145,7 @@ MAIN MENU
 Enter choice (1-4):
 ```
 
-## ⚠️ **Important Notes**
+##  **Important Notes**
 - **First-time Setup:** Dependencies (like nlohmann/json) are automatically downloaded by CMake
 - **Build Directory:** You can safely delete `build/` anytime and recreate it
 - **Clean Builds:** Use `rm -rf build/ && mkdir build && cd build && cmake ..` for clean rebuilds
@@ -336,22 +336,22 @@ ALERT STATUS:
 - Read alerts:                    0
 ```
 
-## 📊 PRD Features Verification
+##  PRD Features Verification
 
 All Product Requirements Document features are implemented and demoable:
 
 | Feature | Admin Operations | User Operations | Analytics |
 |---------|------------------|-----------------|-----------|
-| Create unlimited alerts | ✅ Dashboard | - | ✅ Count |
-| Update/archive alerts | ✅ Operations | - | - |
-| Enable/disable reminders | ✅ Toggle | - | - |
-| List with filtering | ✅ All filters | - | - |
-| View alerts (dashboard) | - | ✅ Personalized | - |
-| Mark read/unread | - | ✅ Status | ✅ Rates |
-| Snooze with daily reset | - | ✅ 24-hour logic | ✅ Rates |
-| 2-hour re-trigger logic | - | ✅ Implemented | - |
-| Org/Team/User visibility | ✅ Targeting | ✅ Filtering | - |
-| Analytics dashboard | ✅ Update counters | ✅ Track activity | ✅ All metrics |
+| Create unlimited alerts |  Dashboard | - |  Count |
+| Update/archive alerts |  Operations | - | - |
+| Enable/disable reminders |  Toggle | - | - |
+| List with filtering |  All filters | - | - |
+| View alerts (dashboard) | - |  Personalized | - |
+| Mark read/unread | - |  Status |  Rates |
+| Snooze with daily reset | - |  24-hour logic |  Rates |
+| 2-hour re-trigger logic | - |  Implemented | - |
+| Org/Team/User visibility |  Targeting |  Filtering | - |
+| Analytics dashboard |  Update counters |  Track activity |  All metrics |
 
 ## 🔧 Development Notes
 
@@ -391,7 +391,7 @@ All Product Requirements Document features are implemented and demoable:
 - **Reminder Schedulers**: Enhance `ReminderScheduler` with cron expressions
 - **Data Storage**: Integrate JSON persistence with existing framework
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Build Issues
 
@@ -431,14 +431,14 @@ cmake --build .
 - Check console encoding settings
 - Restart from build directory
 
-## 📈 Performance & Scalability
+##  Performance & Scalability
 
 - **Memory Efficient**: Smart pointers prevent memory leaks
 - **Modular Architecture**: Easy to extend for larger scale
 - **Thread-Safe Design**: Ready for concurrent operations
 - **JSON Serialization**: Ready for API integrations
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the project
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -446,10 +446,6 @@ cmake --build .
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📝 License
 
-This project demonstrates enterprise-grade C++ development practices for alerting and notification systems. While focused on educational implementation, the code follows production-ready standards and design patterns.
 
----
-
-**Built with C++17 • CMake • Cross-platform compatible • PRD Compliant • Production Ready** 🌟
+**Built with C++17 • CMake • Cross-platform compatible ** 
