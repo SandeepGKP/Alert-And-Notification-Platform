@@ -373,8 +373,13 @@ All Product Requirements Document features are implemented and demoable:
 ├── src/                    # Implementation files
 │   ├── Alert.cpp
 │   ├── AlertManager.cpp
-│   ├── Analytics.cpp
-│   └── *.cpp
+│   ├── Common.cpp
+│   ├── NotificationDelivery.cpp
+│   ├── Team.cpp
+│   ├── User.cpp
+│   ├── UserAlertPreference.cpp
+│   ├── main-new.cpp
+│   └── main.cpp
 └── .vscode/               # IDE configuration
     └── c_cpp_properties.json
 ```
@@ -448,4 +453,4 @@ cmake --build .
 
 
 
-**Built with C++17 • CMake • Cross-platform compatible** 
+**Built with C++17 • CMake • Cross-platform compatible**
