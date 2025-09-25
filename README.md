@@ -72,7 +72,7 @@ Before starting, ensure you have:
 ### **Step 1: Clone the Repository**
 ```bash
 # Clone the project
-git clone <your-repository-url-here>
+git clone https://github.com/SandeepGKP/Alert-And-Notification-Platform.git
 
 # Navigate to project directory
 cd alerting-notification-platform 
